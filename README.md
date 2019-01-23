@@ -59,7 +59,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-![Gonçalo Peres](https://avatars2.githubusercontent.com/u/17071794?s=460&v=4)  | [![Goncalo Peres.com](https://media.licdn.com/dms/image/C4D0BAQG-4uKIHXTqFA/company-logo_200_200/0?e=2129500800&v=beta&t=Mn-TfL5EthVcWGFVK1bt0cnA9JG1vH0iHAYnC4WGex4)](https://goncaloperes.com/)
+![Gonçalo Peres](https://pp.userapi.com/c846324/v846324404/7272d/9tPmYL8k_nM.jpg?ava=1)  | [![Goncalo Peres.com](https://media.licdn.com/dms/image/C4D0BAQG-4uKIHXTqFA/company-logo_200_200/0?e=2129500800&v=beta&t=Mn-TfL5EthVcWGFVK1bt0cnA9JG1vH0iHAYnC4WGex4)](https://goncaloperes.com/)
 ---|---
 [Gonçalo Peres](https://github.com/goncaloperes) |[Official Site](https://goncaloperes.com)
 
