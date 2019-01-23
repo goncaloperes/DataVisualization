@@ -1,5 +1,5 @@
 # [Data Visualizations](https://github.com/goncaloperes/datavisualization)
-[![GitHub Watches](https://img.shields.io/github/watchers/goncaloperes/datavisualization.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/goncaloperes/Project-CodeIgniter-CMS/watchers)
+[![GitHub Watches](https://img.shields.io/github/watchers/goncaloperes/datavisualization.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/goncaloperes/datavisualization/watchers)
 [![GitHub Starts](https://img.shields.io/github/stars/goncaloperes/datavisualization.svg?style=social&label=Star&maxAge=2592000)](https://github.com/goncaloperes/datavisualization/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/goncaloperes/datavisualization.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/goncaloperes/datavisualization/network)
 
