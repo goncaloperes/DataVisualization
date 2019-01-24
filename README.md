@@ -20,15 +20,19 @@ Here I will share some of my data visualizations using a variety of datasets, te
 ### U.S. Department of Agriculture - Honey Production, 2009-2013
 
 Intro
+
 ![](https://github.com/goncaloperes/datavisualization/blob/master/snapshots/intro.png)
 
 1st Codification
+
 ![](https://github.com/goncaloperes/datavisualization/blob/master/snapshots/dv1.jpg)
 
 2nd Codification
+
 ![](https://github.com/goncaloperes/datavisualization/blob/master/snapshots/dv2.jpg)
 
 3rd Codification
+
 ![](https://github.com/goncaloperes/datavisualization/blob/master/snapshots/dv3.jpg)
 
 
