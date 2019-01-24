@@ -1,0 +1,170 @@
+#intro {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 15%;
+    text-align: left;
+    color: #B5B5B5;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Noto Serif SC', serif;
+}
+
+path:hover{
+    fill: darkred;
+    opacity: 1;
+}
+
+text{
+    font-size: 15px;
+}
+
+
+#intro h2{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.3em;
+}
+
+#intro span {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 15px;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 7px;
+    font-size: 0.9em;
+    pointer-events: none;
+    background: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    -moz-box-shadow:    3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:         3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip p {
+    margin: 0;
+    padding: 0;
+}
+
+
+svg{
+    width: 71vw;
+}
+
+#map svg{
+    width: 71vw;
+}
+
+#g legend{
+    align: center;
+}
+
+body {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    background: #111;
+    fill: white;
+    color: white;
+    cursor:default;
+}
+
+.navbar-brand {
+    height: 60px;
+    padding: 5px 0px;
+}
+
+#chart{
+    width: 800px;
+    height: 600px;
+    background-color: #111;
+    margin: 25px auto;
+}
+#buttons{
+    width: 800px;
+    margin: 25px auto;
+    text-align: center;
+}
+button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+button:hover{
+    background-color: grey;
+}
+
+#note {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #6E6E6E;
+    text-align: center;
+}
+
+.website {
+    color: #6E6E6E;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 1% 6% 4% 4%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
