@@ -1,0 +1,568 @@
+{
+  "created_at": "2013-11-13T22:27:02.129092+00:00", 
+  "dataset": {
+    "created_at": "2013-11-13T22:27:02.129092+00:00", 
+    "description": "Honey Production 2010", 
+    "description_short": "Honey Production 2010", 
+    "display_name": "U.S. Department of Agriculture - Honey Production - 2010", 
+    "id": "30076b40-671d-48e8-9fdc-cc2937d668fe", 
+    "key_value": {}, 
+    "modified_at": "2018-08-07T01:48:14.284571+00:00", 
+    "published": true
+  }, 
+  "end_date": null, 
+  "fields": [
+    {
+      "data_type": "string", 
+      "description": "State", 
+      "display_name": "State", 
+      "is_serialid": false, 
+      "name": "state", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Honey Producing Colonies (thousands)", 
+      "display_name": "Honey Producing Colonies", 
+      "is_serialid": false, 
+      "name": "honey_producing_colonies", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Yield Per Colony (pounds)", 
+      "display_name": "Yield Per Colony", 
+      "is_serialid": false, 
+      "name": "yield_per_colony", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Production (thousand pounds)", 
+      "display_name": "Production", 
+      "is_serialid": false, 
+      "name": "production", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Stocks (thousand pounds)", 
+      "display_name": "Stocks", 
+      "is_serialid": false, 
+      "name": "stocks", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Average Price Per Pound (cents)", 
+      "display_name": "Average Price Per Pound", 
+      "is_serialid": false, 
+      "name": "average_price_per_pound", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Value Of Production (thousand dollars)", 
+      "display_name": "Value Of Production", 
+      "is_serialid": false, 
+      "name": "value_of_production", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "integer", 
+      "description": "Serialid", 
+      "display_name": "Serialid", 
+      "is_serialid": false, 
+      "name": "serialid", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "string", 
+      "description": "An Enigma assigned serial id.", 
+      "display_name": "Enigma Serial ID", 
+      "is_serialid": true, 
+      "name": "serial_0f045ae6_3013_4118_9c2b_8592a827e8c6", 
+      "visible_by_default": true
+    }
+  ], 
+  "highlights": [], 
+  "id": "0f045ae6-3013-4118-9c2b-8592a827e8c6", 
+  "ingest_status": {
+    "state": "SUCCESS", 
+    "timestamp": "2018-07-02T01:11:50.106153"
+  }, 
+  "owner_id": null, 
+  "parent_snapshot": null, 
+  "record_start_date": "2013-11-13T22:27:02.129092+00:00", 
+  "row_count": 41, 
+  "size": 16384, 
+  "start_date": null, 
+  "stats": {}, 
+  "table_rows": {
+    "count": 41, 
+    "fields": [
+      "state", 
+      "honey_producing_colonies", 
+      "yield_per_colony", 
+      "production", 
+      "stocks", 
+      "average_price_per_pound", 
+      "value_of_production", 
+      "serialid", 
+      "serial_0f045ae6_3013_4118_9c2b_8592a827e8c6"
+    ], 
+    "rows": [
+      [
+        "AL", 
+        "9", 
+        "66", 
+        "594", 
+        "214", 
+        "190", 
+        "1129", 
+        "1", 
+        "0"
+      ], 
+      [
+        "AZ", 
+        "25", 
+        "64", 
+        "1600", 
+        "336", 
+        "126", 
+        "2016", 
+        "2", 
+        "1"
+      ], 
+      [
+        "AR", 
+        "28", 
+        "75", 
+        "2100", 
+        "525", 
+        "135", 
+        "2835", 
+        "3", 
+        "2"
+      ], 
+      [
+        "CA", 
+        "360", 
+        "51", 
+        "18360", 
+        "4039", 
+        "139", 
+        "25520", 
+        "4", 
+        "3"
+      ], 
+      [
+        "CO", 
+        "27", 
+        "45", 
+        "1215", 
+        "656", 
+        "151", 
+        "1835", 
+        "5", 
+        "4"
+      ], 
+      [
+        "FL", 
+        "150", 
+        "79", 
+        "11850", 
+        "1304", 
+        "132", 
+        "15642", 
+        "6", 
+        "5"
+      ], 
+      [
+        "GA", 
+        "65", 
+        "71", 
+        "4615", 
+        "369", 
+        "152", 
+        "7015", 
+        "7", 
+        "6"
+      ], 
+      [
+        "HI", 
+        "10", 
+        "90", 
+        "900", 
+        "225", 
+        "159", 
+        "1431", 
+        "8", 
+        "7"
+      ], 
+      [
+        "ID", 
+        "90", 
+        "40", 
+        "3600", 
+        "1440", 
+        "146", 
+        "5256", 
+        "9", 
+        "8"
+      ], 
+      [
+        "IL", 
+        "8", 
+        "56", 
+        "448", 
+        "116", 
+        "259", 
+        "1160", 
+        "10", 
+        "9"
+      ], 
+      [
+        "IN", 
+        "7", 
+        "67", 
+        "469", 
+        "150", 
+        "168", 
+        "788", 
+        "11", 
+        "10"
+      ], 
+      [
+        "IA", 
+        "24", 
+        "62", 
+        "1488", 
+        "580", 
+        "158", 
+        "2351", 
+        "12", 
+        "11"
+      ], 
+      [
+        "KS", 
+        "10", 
+        "61", 
+        "610", 
+        "128", 
+        "155", 
+        "946", 
+        "13", 
+        "12"
+      ], 
+      [
+        "KY", 
+        "4", 
+        "39", 
+        "156", 
+        "27", 
+        "244", 
+        "381", 
+        "14", 
+        "13"
+      ], 
+      [
+        "LA", 
+        "40", 
+        "77", 
+        "3080", 
+        "493", 
+        "136", 
+        "4189", 
+        "15", 
+        "14"
+      ], 
+      [
+        "ME", 
+        "7", 
+        "42", 
+        "294", 
+        "79", 
+        "157", 
+        "462", 
+        "16", 
+        "15"
+      ], 
+      [
+        "MI", 
+        "71", 
+        "73", 
+        "5183", 
+        "2021", 
+        "144", 
+        "7464", 
+        "17", 
+        "16"
+      ], 
+      [
+        "MN", 
+        "122", 
+        "78", 
+        "9516", 
+        "2569", 
+        "139", 
+        "13227", 
+        "18", 
+        "17"
+      ], 
+      [
+        "MS", 
+        "14", 
+        "98", 
+        "1372", 
+        "110", 
+        "130", 
+        "1784", 
+        "19", 
+        "18"
+      ], 
+      [
+        "MO", 
+        "11", 
+        "53", 
+        "583", 
+        "152", 
+        "168", 
+        "979", 
+        "20", 
+        "19"
+      ], 
+      [
+        "MT", 
+        "134", 
+        "70", 
+        "9380", 
+        "4596", 
+        "137", 
+        "12851", 
+        "21", 
+        "20"
+      ], 
+      [
+        "NE", 
+        "36", 
+        "67", 
+        "2412", 
+        "1254", 
+        "145", 
+        "3497", 
+        "22", 
+        "21"
+      ], 
+      [
+        "NV", 
+        "10", 
+        "29", 
+        "290", 
+        "52", 
+        "142", 
+        "412", 
+        "23", 
+        "22"
+      ], 
+      [
+        "NJ", 
+        "9", 
+        "40", 
+        "360", 
+        "122", 
+        "162", 
+        "583", 
+        "24", 
+        "23"
+      ], 
+      [
+        "NM", 
+        "6", 
+        "48", 
+        "288", 
+        "95", 
+        "148", 
+        "426", 
+        "25", 
+        "24"
+      ], 
+      [
+        "NY", 
+        "50", 
+        "70", 
+        "3500", 
+        "1260", 
+        "165", 
+        "5775", 
+        "26", 
+        "25"
+      ], 
+      [
+        "NC", 
+        "12", 
+        "52", 
+        "624", 
+        "137", 
+        "218", 
+        "1360", 
+        "27", 
+        "26"
+      ], 
+      [
+        "ND", 
+        "400", 
+        "90", 
+        "36000", 
+        "8640", 
+        "136", 
+        "48960", 
+        "28", 
+        "27"
+      ], 
+      [
+        "OH", 
+        "14", 
+        "53", 
+        "742", 
+        "371", 
+        "168", 
+        "1247", 
+        "29", 
+        "28"
+      ], 
+      [
+        "OR", 
+        "50", 
+        "43", 
+        "2150", 
+        "1097", 
+        "141", 
+        "3032", 
+        "30", 
+        "29"
+      ], 
+      [
+        "PA", 
+        "23", 
+        "48", 
+        "1104", 
+        "276", 
+        "165", 
+        "1822", 
+        "31", 
+        "30"
+      ], 
+      [
+        "SD", 
+        "225", 
+        "95", 
+        "21375", 
+        "11970", 
+        "134", 
+        "28643", 
+        "32", 
+        "31"
+      ], 
+      [
+        "TN", 
+        "7", 
+        "61", 
+        "427", 
+        "149", 
+        "209", 
+        "892", 
+        "33", 
+        "32"
+      ], 
+      [
+        "TX", 
+        "77", 
+        "64", 
+        "4928", 
+        "1380", 
+        "134", 
+        "6604", 
+        "34", 
+        "33"
+      ], 
+      [
+        "UT", 
+        "28", 
+        "48", 
+        "1344", 
+        "242", 
+        "157", 
+        "2110", 
+        "35", 
+        "34"
+      ], 
+      [
+        "VT", 
+        "5", 
+        "66", 
+        "330", 
+        "119", 
+        "220", 
+        "726", 
+        "36", 
+        "35"
+      ], 
+      [
+        "VA", 
+        "6", 
+        "42", 
+        "252", 
+        "45", 
+        "242", 
+        "610", 
+        "37", 
+        "36"
+      ], 
+      [
+        "WA", 
+        "49", 
+        "44", 
+        "2156", 
+        "862", 
+        "151", 
+        "3256", 
+        "38", 
+        "37"
+      ], 
+      [
+        "WV", 
+        "6", 
+        "43", 
+        "258", 
+        "49", 
+        "216", 
+        "557", 
+        "39", 
+        "38"
+      ], 
+      [
+        "WI", 
+        "58", 
+        "80", 
+        "4640", 
+        "2366", 
+        "150", 
+        "6960", 
+        "40", 
+        "39"
+      ], 
+      [
+        "WY", 
+        "39", 
+        "61", 
+        "2379", 
+        "381", 
+        "137", 
+        "3259", 
+        "41", 
+        "40"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "created_at": "2013-11-13T22:26:14.626296+00:00", 
+  "dataset": {
+    "created_at": "2013-11-13T22:26:14.626296+00:00", 
+    "description": "Honey Production 2012", 
+    "description_short": "Honey Production 2012", 
+    "display_name": "U.S. Department of Agriculture - Honey Production - 2012", 
+    "id": "8f70611d-6c0d-40d8-86f4-ab032ada83ca", 
+    "key_value": {}, 
+    "modified_at": "2018-08-07T01:48:14.605492+00:00", 
+    "published": true
+  }, 
+  "end_date": null, 
+  "fields": [
+    {
+      "data_type": "string", 
+      "description": "State", 
+      "display_name": "State", 
+      "is_serialid": false, 
+      "name": "state", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Honey Producing Colonies (thousands) ", 
+      "display_name": "Honey Producing Colonies", 
+      "is_serialid": false, 
+      "name": "honey_producing_colonies", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Yield Per Colony (pounds)", 
+      "display_name": "Yield Per Colony", 
+      "is_serialid": false, 
+      "name": "yield_per_colony", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Production (thousand pounds)", 
+      "display_name": "Production", 
+      "is_serialid": false, 
+      "name": "production", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Stocks (thousand pounds)", 
+      "display_name": "Stocks", 
+      "is_serialid": false, 
+      "name": "stocks", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Average Price Per Pound (cents)", 
+      "display_name": "Average Price Per Pound", 
+      "is_serialid": false, 
+      "name": "average_price_per_pound", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "decimal", 
+      "description": "Value Of Production (thousand dollars)", 
+      "display_name": "Value Of Production", 
+      "is_serialid": false, 
+      "name": "value_of_production", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "integer", 
+      "description": "Serialid", 
+      "display_name": "Serialid", 
+      "is_serialid": false, 
+      "name": "serialid", 
+      "visible_by_default": true
+    }, 
+    {
+      "data_type": "string", 
+      "description": "An Enigma assigned serial id.", 
+      "display_name": "Enigma Serial ID", 
+      "is_serialid": true, 
+      "name": "serial_48a9cf89_d0ed_4aa2_a748_70349106b3a9", 
+      "visible_by_default": true
+    }
+  ], 
+  "highlights": [], 
+  "id": "48a9cf89-d0ed-4aa2-a748-70349106b3a9", 
+  "ingest_status": {
+    "state": "SUCCESS", 
+    "timestamp": "2018-07-02T01:11:53.807444"
+  }, 
+  "owner_id": null, 
+  "parent_snapshot": null, 
+  "record_start_date": "2013-11-13T22:26:14.626296+00:00", 
+  "row_count": 40, 
+  "size": 16384, 
+  "start_date": null, 
+  "stats": {
+    "average_price_per_pound": {
+      "avg": 192.9, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 332.0, 
+      "min": 144.0, 
+      "sum": 7716.0
+    }, 
+    "honey_producing_colonies": {
+      "avg": 66.65, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 510.0, 
+      "min": 4.0, 
+      "sum": 2666.0
+    }, 
+    "production": {
+      "avg": 4382.35, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 46410.0, 
+      "min": 185.0, 
+      "sum": 175294.0
+    }, 
+    "serial_48a9cf89_d0ed_4aa2_a748_70349106b3a9": {
+      "avg": 19.5, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 39.0, 
+      "min": 0.0, 
+      "sum": 780.0
+    }, 
+    "serialid": {
+      "avg": 20.5, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 40.0, 
+      "min": 1.0, 
+      "sum": 820.0
+    }, 
+    "state": {
+      "buckets": [
+        {
+          "doc_count": 1, 
+          "key": "Alabama"
+        }, 
+        {
+          "doc_count": 1, 
+          "key": "Arizona"
+        }, 
+        {
+          "doc_count": 1, 
+          "key": "Arkansas"
+        }, 
+        {
+          "doc_count": 1, 
+          "key": "California"
+        }, 
+        {
+          "doc_count": 1, 
+          "key": "Colorado"
+        }
+      ], 
+      "doc_count_error_upper_bound": 1, 
+      "fill_rate": 1.0, 
+      "sum_other_doc_count": 35
+    }, 
+    "stocks": {
+      "avg": 1119.925, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 12995.0, 
+      "min": 33.0, 
+      "sum": 44797.0
+    }, 
+    "value_of_production": {
+      "avg": 6959.25, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 69615.0, 
+      "min": 420.0, 
+      "sum": 278370.0
+    }, 
+    "yield_per_colony": {
+      "avg": 56.275, 
+      "count": 40, 
+      "fill_rate": 1.0, 
+      "max": 98.0, 
+      "min": 27.0, 
+      "sum": 2251.0
+    }
+  }, 
+  "table_rows": {
+    "count": 40, 
+    "fields": [
+      "state", 
+      "honey_producing_colonies", 
+      "yield_per_colony", 
+      "production", 
+      "stocks", 
+      "average_price_per_pound", 
+      "value_of_production", 
+      "serialid", 
+      "serial_48a9cf89_d0ed_4aa2_a748_70349106b3a9"
+    ], 
+    "rows": [
+      [
+        "Alabama", 
+        "9", 
+        "54", 
+        "486", 
+        "73", 
+        "240", 
+        "1166", 
+        "1", 
+        "0"
+      ], 
+      [
+        "Arizona", 
+        "24", 
+        "77", 
+        "1848", 
+        "665", 
+        "152", 
+        "2809", 
+        "2", 
+        "1"
+      ], 
+      [
+        "Arkansas", 
+        "25", 
+        "60", 
+        "1500", 
+        "360", 
+        "147", 
+        "2205", 
+        "3", 
+        "2"
+      ], 
+      [
+        "California", 
+        "410", 
+        "67", 
+        "27470", 
+        "6318", 
+        "155", 
+        "42579", 
+        "4", 
+        "3"
+      ], 
+      [
+        "Colorado", 
+        "34", 
+        "56", 
+        "1904", 
+        "533", 
+        "152", 
+        "2894", 
+        "5", 
+        "4"
+      ], 
+      [
+        "Florida", 
+        "200", 
+        "69", 
+        "13800", 
+        "1794", 
+        "156", 
+        "21528", 
+        "6", 
+        "5"
+      ], 
+      [
+        "Georgia", 
+        "55", 
+        "46", 
+        "2530", 
+        "152", 
+        "167", 
+        "4225", 
+        "7", 
+        "6"
+      ], 
+      [
+        "Hawaii", 
+        "10", 
+        "77", 
+        "770", 
+        "239", 
+        "275", 
+        "2118", 
+        "8", 
+        "7"
+      ], 
+      [
+        "Idaho", 
+        "97", 
+        "27", 
+        "2619", 
+        "1179", 
+        "161", 
+        "4217", 
+        "9", 
+        "8"
+      ], 
+      [
+        "Illinois", 
+        "9", 
+        "41", 
+        "369", 
+        "92", 
+        "278", 
+        "1026", 
+        "10", 
+        "9"
+      ], 
+      [
+        "Indiana", 
+        "10", 
+        "43", 
+        "430", 
+        "151", 
+        "223", 
+        "959", 
+        "11", 
+        "10"
+      ], 
+      [
+        "Iowa", 
+        "27", 
+        "49", 
+        "1323", 
+        "463", 
+        "192", 
+        "2540", 
+        "12", 
+        "11"
+      ], 
+      [
+        "Kansas", 
+        "9", 
+        "52", 
+        "468", 
+        "103", 
+        "202", 
+        "945", 
+        "13", 
+        "12"
+      ], 
+      [
+        "Kentucky", 
+        "5", 
+        "67", 
+        "335", 
+        "67", 
+        "272", 
+        "911", 
+        "14", 
+        "13"
+      ], 
+      [
+        "Louisiana", 
+        "36", 
+        "80", 
+        "2880", 
+        "288", 
+        "150", 
+        "4320", 
+        "15", 
+        "14"
+      ], 
+      [
+        "Maine", 
+        "5", 
+        "41", 
+        "205", 
+        "33", 
+        "205", 
+        "420", 
+        "16", 
+        "15"
+      ], 
+      [
+        "Michigan", 
+        "71", 
+        "58", 
+        "4118", 
+        "1524", 
+        "167", 
+        "6877", 
+        "17", 
+        "16"
+      ], 
+      [
+        "Minnesota", 
+        "128", 
+        "66", 
+        "8448", 
+        "1774", 
+        "155", 
+        "13094", 
+        "18", 
+        "17"
+      ], 
+      [
+        "Mississippi", 
+        "16", 
+        "98", 
+        "1568", 
+        "78", 
+        "144", 
+        "2258", 
+        "19", 
+        "18"
+      ], 
+      [
+        "Missouri", 
+        "11", 
+        "52", 
+        "572", 
+        "92", 
+        "180", 
+        "1030", 
+        "20", 
+        "19"
+      ], 
+      [
+        "Montana", 
+        "157", 
+        "74", 
+        "11618", 
+        "2905", 
+        "158", 
+        "18356", 
+        "21", 
+        "20"
+      ], 
+      [
+        "Nebraska", 
+        "41", 
+        "55", 
+        "2255", 
+        "902", 
+        "151", 
+        "3405", 
+        "22", 
+        "21"
+      ], 
+      [
+        "New Jersey", 
+        "13", 
+        "35", 
+        "455", 
+        "73", 
+        "190", 
+        "865", 
+        "23", 
+        "22"
+      ], 
+      [
+        "New Mexico", 
+        "7", 
+        "66", 
+        "462", 
+        "157", 
+        "158", 
+        "730", 
+        "24", 
+        "23"
+      ], 
+      [
+        "New York", 
+        "45", 
+        "64", 
+        "2880", 
+        "1123", 
+        "196", 
+        "5645", 
+        "25", 
+        "24"
+      ], 
+      [
+        "North Carolina", 
+        "13", 
+        "46", 
+        "598", 
+        "144", 
+        "266", 
+        "1591", 
+        "26", 
+        "25"
+      ], 
+      [
+        "North Dakota", 
+        "510", 
+        "91", 
+        "46410", 
+        "12995", 
+        "150", 
+        "69615", 
+        "27", 
+        "26"
+      ], 
+      [
+        "Ohio", 
+        "18", 
+        "62", 
+        "1116", 
+        "346", 
+        "228", 
+        "2544", 
+        "28", 
+        "27"
+      ], 
+      [
+        "Oregon", 
+        "59", 
+        "39", 
+        "2301", 
+        "874", 
+        "163", 
+        "3751", 
+        "29", 
+        "28"
+      ], 
+      [
+        "Pennsylvania", 
+        "30", 
+        "37", 
+        "1110", 
+        "377", 
+        "213", 
+        "2364", 
+        "30", 
+        "29"
+      ], 
+      [
+        "South Dakota", 
+        "265", 
+        "58", 
+        "15370", 
+        "4765", 
+        "151", 
+        "23209", 
+        "31", 
+        "30"
+      ], 
+      [
+        "Tennessee", 
+        "8", 
+        "63", 
+        "504", 
+        "106", 
+        "250", 
+        "1260", 
+        "32", 
+        "31"
+      ], 
+      [
+        "Texas", 
+        "100", 
+        "72", 
+        "7200", 
+        "792", 
+        "151", 
+        "10872", 
+        "33", 
+        "32"
+      ], 
+      [
+        "Utah", 
+        "26", 
+        "30", 
+        "780", 
+        "195", 
+        "153", 
+        "1193", 
+        "34", 
+        "33"
+      ], 
+      [
+        "Vermont", 
+        "4", 
+        "65", 
+        "260", 
+        "73", 
+        "310", 
+        "806", 
+        "35", 
+        "34"
+      ], 
+      [
+        "Virginia", 
+        "5", 
+        "37", 
+        "185", 
+        "37", 
+        "332", 
+        "614", 
+        "36", 
+        "35"
+      ], 
+      [
+        "Washington", 
+        "71", 
+        "37", 
+        "2627", 
+        "1077", 
+        "157", 
+        "4124", 
+        "37", 
+        "36"
+      ], 
+      [
+        "West Virginia", 
+        "5", 
+        "40", 
+        "200", 
+        "40", 
+        "239", 
+        "478", 
+        "38", 
+        "37"
+      ], 
+      [
+        "Wisconsin", 
+        "64", 
+        "64", 
+        "4096", 
+        "1556", 
+        "168", 
+        "6881", 
+        "39", 
+        "38"
+      ], 
+      [
+        "Wyoming", 
+        "34", 
+        "36", 
+        "1224", 
+        "282", 
+        "159", 
+        "1946", 
+        "40", 
+        "39"
+      ]
+    ]
+  }
+}

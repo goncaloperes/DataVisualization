@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VI - Gonçalo Peres</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="http://dataviz.goncaloperes.com/"><img id="logo" src="img/logo.png"></a>
+            <br>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="http://dataviz.goncaloperes.com/">Contexto</a>
+                <a href="http://dataviz.goncaloperes.com/1/">1.ª Codificação Visual</a>
+                <a href="http://dataviz.goncaloperes.com/2/">2.ª Codificação Visual</a>
+                <a href="http://dataviz.goncaloperes.com/3/">3.ª Codificação Visual</a>
+            </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="menu-button">&#9776;</span>
+        <br>
+        <br>
+    </nav>
+    <div id="intro">
+        <h2>1.ª Codificação Visual</h2>
+        <span>Analyzing the average price per pound of honey (in cents) in the states of the USA in the year 2013 (undefined values
+            are colored in grey).</span><br>
+    </div>
+    <br>
+    <div id="content">
+        <h1>U.S. Department of Agriculture - Honey Production, 2013</h1>
+        <div id="map"></div>
+    </div>
+    <div id="chart"></div>
+    <div id="buttons">
+        <button type="button" class="panning up"><i class="fa fa-arrow-up"></i></button>
+        <button type="button" class="panning down"><i class="fa fa-arrow-down"></i></button>
+        <button type="button" class="panning left"><i class="fa fa-arrow-left"></i></button>
+        <button type="button" class="panning right"><i class="fa fa-arrow-right"></i></button>
+        <button type="button" class="zooming in"><i class="fa fa-plus"></i></button>
+        <button type="button" class="zooming out"><i class="fa fa-minus"></i></button>
+    </div>
+
+    <div id="note">
+        <span>Gonçalo Peres | <b><a class="website" href="http://goncaloperes.com/" target="_blank">GoncaloPeres.com</a></b></span><br>
+        <span>Data from: <a class="website" href="https://public.enigma.com/datasets/u-s-department-of-agriculture-honey-production-2013/41cf2441-e96f-4113-a02f-402d167a9cd8" target="_blank">Enigma Public</a></span>
+    </div>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
