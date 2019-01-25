@@ -61,10 +61,13 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ---
 
-## Built with 
+## Technologies used
 
 - [D3.js](https://d3js.org/) - JavaScript library for producing dynamic, interactive data visualizations in web browsers. It makes use of the widely implemented SVG, HTML5, and CSS standards.
 
+- [RAWGraphs](https://rawgraphs.io/) -  Open source data visualization framework built with the goal of making the visual representation of complex data easy for everyone.
+
+- [Tableau](https://www.tableau.com/) -  Business intelligence and data visualization tool.
 ---
 
 ## Team
